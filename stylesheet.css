@@ -17,7 +17,7 @@ body{
   position: relative;
   position:absolute;
   top: 50%;
-  transform: translateY(-50%) translateX(-1%);
+  transform: translateY(-50.5%) translateX(-1%);
   height:65px;
   width: 65px;
   background-color: #e0ffff;
