@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+  background-color:#00aaff;
+  height:65px;
+  position: relative;
+}
+
+.header_logo{
+  display:block;
+  position: relative;
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-1%);
+  height:65px;
+  width: 65px;
+  background-color: #e0ffff;
+}
+
+.header_logo:hover{
+  transition-duration: 0.2s;
+  background-color: #00A9DE;
+}
+
+.header_logo span:hover{
+  transition-duration: 0.2s;
+  color:black;
+}
+
+.header_logo span{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translateY(-46%) translateX(-50%);
+  display:inline-block;
+  color:black;
+  font-size: 460%;
+  font-weight:bold;
+  vertical-align:middle;
+  text-align: center;
+}
+
+.header{
+  width:100%;
+  heaight:65px;
+}
+
+.header_right a{
+  display: block;
+  float:right;
+  width:120px;
+  height: 65px;
+  line-height: 65px;
+  border-left: 1px dashed white;
+  text-align: center;
+
+  font-size: 30px;
+  text-decoration: none;
+  color:white;
+  font-family: "Nico Moji";
+}
+
+.wf-nicomoji { font-family: "Nico Moji"; }
